@@ -1,9 +1,10 @@
 {
-  "name": "i2c",
-  "version": "0.2.5",
-  "description": "Native bindings for i2c-dev. Plays well with Raspberry Pi and BeagleBone.",
-  "main": "main.js",
+  "name": "node-i2c-js",
+  "version": "1.0.0",
+  "description": "Forked from node-i2c@0.2.5. Native bindings for i2c-dev. Plays well with Raspberry Pi and BeagleBone. Updated to remove coffee script and underscore dependancies, add extra functionality",
+  "main": "index.js",
   "author": "Kelly Korevec",
+  "contributer": "Paul Smith",
   "repository": {
     "type": "git",
     "url": "http://github.com/korevec/node-i2c.git"
@@ -11,10 +12,8 @@
   "license": "BSD-3-Clause-Attribution",
   "dependencies": {
     "bindings": "1.5.0",
-    "underscore": "1.11.0",
-    "coffeescript": "2.5.1",
-    "repl":"0.1.3",
+    "repl": "0.1.3",
     "nan": "~2.14.0"
   },
-  "engine": "node >= 0.12.0"
+  "engine": "node >= 0.8.0"
 }

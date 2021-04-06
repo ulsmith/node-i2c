@@ -5,14 +5,14 @@ Bindings for i2c-dev. Plays well with Raspberry Pi and Beaglebone.
 ## Install
 
 ````bash
-$ npm install i2c
+$ npm install node-i2c-js
 ````
 
 ## Usage
 
 ```javascript
 
-var i2c = require('i2c');
+var i2c = require('node-i2c-js');
 var address = 0x18;
 var wire = new i2c(address, {device: '/dev/i2c-1'}); // point to your i2c address, debug provides REPL interface
 
