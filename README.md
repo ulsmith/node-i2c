@@ -2,6 +2,11 @@
 
 Bindings for i2c-dev. Plays well with Raspberry Pi and Beaglebone.
 
+## Update ulsmith
+
+Removed coffee script, underscore.
+Removed need for wrapper class and added native async support. Allowed write bytes to take a single or array of bytes. 
+
 ## Install
 
 ````bash
