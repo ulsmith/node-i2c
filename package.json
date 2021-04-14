@@ -1,6 +1,6 @@
 {
   "name": "node-i2c-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Forked from node-i2c@0.2.5, converted to async/promise based responses. Native bindings for i2c-dev. Plays well with Raspberry Pi and BeagleBone. Updated to remove coffee script and underscore dependancies, add extra functionality",
   "main": "index.js",
   "author": "Kelly Korevec",
